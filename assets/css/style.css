@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://cdn.dottorgadget.it/blog/wp-content/uploads/2017/07/dadi-d-and-d-fluorescenti-770x513.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.856);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+#winner{
+    font-size: 25px;
+    font-weight: bold;
+}

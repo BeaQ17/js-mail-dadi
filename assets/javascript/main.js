@@ -33,11 +33,11 @@ if (guard == true){
 
 //Es 2 - Dadi
 //Generare numero random per giocatore e computer
-var numPlayer = Math.round(Math.random() * 6);
+var numPlayer = Math.round(Math.random() * 6) +1;
 console.log(numPlayer);
 document.getElementById("player").innerHTML = "Il numero del giocatore è " + numPlayer;
 
-var numPC = Math.round(Math.random() * 6);
+var numPC = Math.round(Math.random() * 6) +1;
 console.log(numPC);
 document.getElementById("pc").innerHTML = "Il numero del computer è " + numPC;
 
